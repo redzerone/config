@@ -1,0 +1,45 @@
+[global_config]
+  window_state = maximise
+  inactive_color_offset = 0.6388888888888888
+  inactive_bg_color_offset = 0.6944444444444444
+[keybindings]
+  new_tab = <Primary>t
+  go_left = <Primary>n
+  go_right = <Primary>m
+  split_horiz = <Super>n
+  split_vert = <Super>m
+  close_term = <Primary>w
+  copy = <Primary>c
+  paste = <Primary>v
+  search = <Primary>f
+  prev_tab = <Primary>h
+  next_profile = <Primary>percent
+  previous_profile = <Primary>asciicircum
+[profiles]
+  [[default]]
+    background_color = "#25232e"
+    background_darkness = 0.95
+    background_image = /root/Downloads/hackers at the white house.jpg
+    cursor_shape = ibeam
+    cursor_fg_color = "#ffa348"
+    cursor_bg_color = "#ffffff"
+    font = Hack 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#22ff00:#cc0000:#000000:#c4a000:#22ff00:#75507b:#5eecff:#1c71d8:#22ff00:#ef2929:#22ff00:#fce94f:#22ff00:#ad7fa8:#34e2e2:#1c71d8"
+    use_system_font = False
+    bold_is_bright = True
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#00f0ff"
+  [[secondMain]]
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
